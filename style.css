@@ -110,7 +110,7 @@ h3{
 }
 .projects{
     color: black;
-   
+    border: lightcyan 2px groove;
     padding: 20px;
 }
 .project-heading{
@@ -134,6 +134,11 @@ background-color: aliceblue;
 border: 2px solid;
 margin-bottom: 20px;
 }
+
+form{
+    background-color: lightcyan;
+}
+
 
 
 
