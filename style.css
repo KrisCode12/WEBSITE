@@ -27,7 +27,7 @@ header{
 }
 .logo{
     max-width: 200px; /* Adjust the maximum width as needed */
-    width: 100%;
+    width: 50px;
     height: auto;
     padding: 10px; /* Add padding as needed */
     border-radius: 200px; /* Add border-radius for rounded corners */
@@ -70,7 +70,7 @@ h3{
     border-radius: 90px;
 }
 #vidlogo{
-    border-radius: 120px;
+    border-radius: 200px;
     float: right;
     margin-right: 200px;
     margin-top: 180px;
