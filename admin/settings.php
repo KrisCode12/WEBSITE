@@ -4,7 +4,7 @@
 
     <main>
         <section>
-            <h2> Dashboard of Web Squad</h2>
+            <h2>Settings</h2>
             <!-- Add your admin dashboard content here -->
         </section>
     </main>
