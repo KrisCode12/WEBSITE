@@ -42,11 +42,12 @@
 
                    </div>
                    
-                    
-                    <p> <?php echo $first_name . ' ' . $middle_initials . ' ' . $last_name; ?></p>
-                    <p>Username: <?php echo $username; ?></p>
-                    <p>Email: <?php echo $email; ?></p>
-                    <p>Bio: <?php echo $bio; ?></p>
+                    <div class="information-container">
+                        <p> <?php echo $first_name . ' ' . $middle_initials . ' ' . $last_name; ?></p>
+                        <p>Username: <?php echo $username; ?></p>
+                        <p>Email: <?php echo $email; ?></p>
+                    </div>
+                   
                   
 
                   

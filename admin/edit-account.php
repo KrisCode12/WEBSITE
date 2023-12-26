@@ -4,10 +4,9 @@
 
     <main>
         <section>
-            <h2>Settings</h2>
+            <h2>Edit Account</h2>
 
-            <a href="edit-account.php">Edit Account</a>
-            <a href="create-account.php">Create Account</a>
+            
 
 
             
