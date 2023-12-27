@@ -1,4 +1,7 @@
 <?php include ('../connection/constants.php');?>
+<?php include ('login-check.php');?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +29,7 @@
         <a href="index.php">Dashboard</a>
         <a href="dev.php">Devs</a>
         <a href="settings.php">Settings</a>
-        <a href="#">Logout</a>
+        <a href="logout.php">Logout</a>
        
     </nav>
 

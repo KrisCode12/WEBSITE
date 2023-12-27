@@ -4,14 +4,26 @@
 
     <main>
         <section>
-            <h2> Dashboard of Web Squad</h2>
-            <!-- Add your admin dashboard content here -->
+            <?php
+            
+            if (isset($_SESSION['user'])) {
+                $username = $_SESSION['user'];
+              ?> <h1>Welcome <?php echo $username ?></h1> <?php
+            } else {
+               
+                header('location:' . SITEURL . 'admin/login.php');
+                exit();
+            }
+            ?>
+           
+            <h2> Dashboard of Web Squad Technology</h2>
+            
         </section>
     </main>
 
    
 
-    <!-- Add your JS scripts or links here -->
+   
 </body>
 </html>
 <?php include ('partials/footer.php');?>
